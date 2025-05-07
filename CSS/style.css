@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body {
+  width: 21cm;  /* عرض A4 */
+  height: 29.7cm; /* ارتفاع A4 */
+  /* background-color: aqua; */
+   /* إخفاء أي محتوى زائد أفقياً ورأسياً */
+
+  /* overflow: hidden; */
+    margin: 0 auto; /* توسيط الصفحة أفقيًا */
+}
+.sheet {
+  width: 21cm;  /* عرض A4 */
+  height: 29.7cm; /* ارتفاع A4 */
+  /* background-color: aqua; */
+   /* إخفاء أي محتوى زائد أفقياً ورأسياً */
+
+  overflow: hidden;
+    margin: 0 auto; /* توسيط الصفحة أفقيًا */
+}
+.left {
+    font-family: "Roboto", serif;
+    font-size: 1.7em; /* تم إنقاص 3px من القيمة الأصلية */
+}
+
+.single-column {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.single-column span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px; /* تم إنقاص 3px من القيمة الأصلية */
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-family: 'Zilla Slab';
+}
+
+.table1 {
+    font-size: 12px; /* تم إنقاص 3px من القيمة الأصلية */
+}
+
+.table2 {
+    font-size: 10px;
+    
+}
+.table3 {
+  width: 500px;
+   font-size: 12px;
+   font-weight: 400;
+    margin: 10px 10px 30px 10px;
+    text-transform: uppercase; font-variant: small-caps;
+}
+.table4{
+  font-weight: 400; font-size: small;
+      font-family: "Roboto", serif;
+margin-top: 70px;}
+
+.table5{
+      font-family: "Roboto", serif;
+      border-top: 1px solid black;
+}
+
+.td2 span{
+  font-weight: 600;
+  word-spacing:10px ;
+}
+.td1{
+    padding-top: 35px;
+    width: 50%; vertical-align: top;
+
+  font-weight: 600;
+  border-right: 1px solid black;
+  font-size: 13px;
+
+}
+.table5 .td2{
+    font-size: small;
+
+    width: 50%; 
+    padding-top: 35px;
+
+  padding-left: 20px
+}
+ .text-line {
+    display: inline-block;
+    width: 100%;
+  }
+  span[data-gap] {
+    display: inline-block;
+    width: 40%;
+  }
+.divider {
+    border-top: 1px solid black;
+}
+
+.field {
+    font-weight: bold;
+}
+span {
+    font-weight: normal;
+    font-family: Tahoma, sans-serif;
+
+}
+.table1 .header-text {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    border-top: 1px solid black;
+    
+    
+}
+
+.shipping-table {
+    font-family: "Roboto", serif;
+    border-top: 1px solid black;
+  }
+
+  .freight-details {
+    vertical-align: top;
+    border: 2px solid black;
+  }
+
+  .issue-details {
+    vertical-align: top;
+    border: 2px solid black;
+  }
+  .freight-details1 {
+    vertical-align: top;
+    border-left: 2px solid black;
+  }
+
+  .issue-details1 {
+    vertical-align: top;
+    border-left: 2px solid black;
+  }
+
+  .field-data {
+    word-spacing: 10px;
+  }
+
+  .date-value {
+    font-weight: bold;
+    padding-left: 150px;
+  }
